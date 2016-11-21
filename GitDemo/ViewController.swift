@@ -33,6 +33,8 @@ class ViewController: UIViewController {
         view1.backgroundColor = UIColor.red
         self.view.addSubview(view1)
         
+        
+        print("123123")
 
         // Do any additional setup after loading the view, typically from a nib.
     }
