@@ -21,6 +21,13 @@ class ViewController: UIViewController {
         view.backgroundColor = UIColor.red
         self.view.addSubview(view)
         
+        let view2 = UIView.init(frame: CGRect.init(x: 0, y: 0, width: 100, height: 100))
+        view2.backgroundColor = UIColor.red
+        self.view.addSubview(view2)
+        
+        let view3 = UIView.init(frame: CGRect.init(x: 0, y: 0, width: 100, height: 100))
+        view3.backgroundColor = UIColor.red
+        self.view.addSubview(view3)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
